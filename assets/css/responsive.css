@@ -2976,11 +2976,14 @@
     /* ================menu-second=============== */
     .menu-second{
         display: block;
-        margin: 30px 0pc 40px 0pc;
+        margin: 20px 0pc 0px 0pc;
+        background-color: white;
+        height: 50px;
+        width: 100%;
     }
     .logo img{
         position: relative;
-        top:-2pc;
+        top:-1.5pc;
         left: 7pc;
         text-align: center;
         align-items: center;
@@ -2993,8 +2996,8 @@
     
     .icon-user{
         position: absolute;
-        top:0.9pc;
-        left: 20.5pc;
+        top:0.4pc;
+        left: 20.2pc;
     }
     .icon-user img{
         position: absolute;
@@ -3010,11 +3013,11 @@
     
     .icon-cart{
         position: relative;
-        top: -6.7pc;
-        left: 2.5pc;
+        top: -6.5pc;
+        left: 1.2pc;
         list-style-type: none;
         float: right;
-        width: 10%;
+        width: 5%;
     }
     .icon-cart a i{
         font-size: 25px;
@@ -3035,8 +3038,8 @@
         font-size: 22px;
         cursor: pointer;
         position: absolute;
-        top:1.4pc ;
-        left: 18.7pc;
+        top:1pc ;
+        left: 18.3pc;
     }
     
     .openBtn:hover {
@@ -3111,14 +3114,17 @@
     
     #toggle{
         display: block;
-        margin-top: -10pc;
+        padding: 0px;
+        margin-top: 0pc;
+        position: absolute;
+        top:0.8pc;
+        left: 5px;
         background:white;
         color: black;
         text-align: left;
-        padding: 15px;
         font-size: 34px;
         cursor: pointer;
-        width: 14%;
+        width: 0%;
     }
     #toggle:active{
         background: gray;
@@ -3128,20 +3134,20 @@
     .Rectangle-63{
         position: relative;
         width: 100%;
-        height: 125pc;
+        height: 122pc;
         background-color: black;
         padding: 1px 0px;
     }
     #sidebar{
         position: relative;
         width: 413px;
-        height: 420px;
+        height: 410px;
         left: 0pc;
-        top: 0px;
+        top: -2px;
         background: #FFFFFF;
         border: 1px solid #B3B3B3;
         box-sizing: border-box;
-        border-radius: 7px;
+        border-radius: 0px;
     }
     #sidebar #nav-sidebar .nav-ul-sidebar{
         position: absolute;
@@ -3284,19 +3290,19 @@
     .Rectangle-15 .h2-text-laptop{
         position: absolute;
         left: 4.5pc;
-        top:39.5pc;
+        top:40.5pc;
     }
     .Rectangle-15 .text-laptop{
         position: absolute;
         width: 241.53px;
         height: 29px;
         left: 5.5pc;
-        top: 42pc;
+        top: 43pc;
     }
     .grid-image-laptop{
         margin: 45.5pc 0px 6pc 0pc;
         display: grid;
-        grid-gap:3pc;
+        grid-gap:1pc;
         grid-template-columns:auto;
     }
     .grid-image-laptop img{
@@ -3313,7 +3319,7 @@
         font-size: 22px;
     }
     .grid-image-th{
-        margin: -3pc 34pc 5pc 4px;
+        margin: 7pc 34pc 0pc 4px;
         background: #7F0000;
         border-radius: 55px;
         padding: 37px 24pc 30px 20px; 
@@ -3584,16 +3590,16 @@
     }
     .text-wrapper-04 h2{
         position: absolute;
-        width: 290px;
+        width: 250px;
         height: 54px;
-        left: 4.5pc;
+        left: 5.2pc;
         top: 1pc;
     }
     .text-wrapper-04 p{
         position: absolute;
-        width: 260px;
+        width: 210px;
         height: 27px;
-        left: 5.5pc;
+        left: 6.5pc;
         top: 3.2pc;
     }
     .text-wrapper-04 img{
@@ -3607,7 +3613,7 @@
     .wrapper-05{
         position: relative;
         width: 100%;
-        height: 87pc;
+        height: 71.2pc;
         background: black;
     }
     .text-01-wrapper-05 h2{
@@ -3615,28 +3621,28 @@
         width: 250px;
         height: 54px;
         left: 5pc;
-        top: 2pc;
+        top: 1pc;
     }
     .text-01-wrapper-05 p{
         position: absolute;
         width: 220px;
         height: 27px;
         left: 6pc;
-        top: 4.2pc;
+        top: 3.5pc;
     }
     .text-02-wrapper-05 h2{
         position: absolute;
         width: 255px;
         height: 54px;
         right: 5pc;
-        top: 44pc;
+        top: 39pc;
     }
     .text-02-wrapper-05 p{
         position: absolute;
         width: 220px;
         height: 27px;
         right: 6pc;
-        top: 46.5pc;
+        top: 41.5pc;
     }
     .text-01-wrapper-05 .img-80{
         position: absolute;
@@ -3650,7 +3656,7 @@
     .text-01-wrapper-05 .img-81{
         position:absolute;
         left: 0pc;
-        top:25pc;
+        top:21pc;
     }
     .text-01-wrapper-05 .img-81 img{
         width: 100%;
@@ -3659,7 +3665,7 @@
     .text-02-wrapper-05 .img-82{
         position:absolute;
         right: 0pc;
-        top:50pc;
+        top:44pc;
     }
     .text-02-wrapper-05 .img-82 img{
         width: 100%;
@@ -3668,7 +3674,7 @@
     .text-02-wrapper-05 .img-83{
         position:absolute;
         right: 0pc;
-        top:69pc;
+        top:57pc;
     }
     .text-02-wrapper-05 .img-83 img{
         width: 100%;
@@ -3679,7 +3685,7 @@
         position: relative;
         height: auto;
         width: 100%;
-        height: 50pc;
+        height: 43pc;
         background: black;
         display: flex;
         justify-content: space-between;
@@ -3692,7 +3698,7 @@
         background: #900000;
     }
     footer .container-footer{
-        margin: -25pc 0pc 0pc 0pc;
+        margin: -22pc 0pc 0pc 0pc;
         padding-left: 20px;
         display: flex;
         justify-content: space-between;
@@ -3701,7 +3707,7 @@
     }
     .nav-01 h3{
         width: 140px;
-        height: auto;
+        height: 70px;
         font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -3735,7 +3741,7 @@
     }
     .nav-02 h3{
         width: 200px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -3766,11 +3772,11 @@
     .nav-03 {
         position: absolute;
         left: 1pc;
-        top: 17pc;
+        top: 15pc;
     }
     .nav-03 h3{
         width: 120px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -3799,11 +3805,11 @@
     .nav-04 {
         position: absolute;
         left: 13pc;
-        top:17pc;
+        top:15pc;
     }
     .nav-04 h3{
         width: 120px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -3844,11 +3850,11 @@
     .nav-05 {
         position:absolute;
         left: 1pc;
-        top: 34pc;
+        top: 30pc;
     }
     .nav-05 h3{
         width: 140px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -3877,6 +3883,10 @@
     }   
     .nav-05 ul li p{
         font-size: 10px;
+    }
+    .nav-05 ul img{
+        position: relative;
+        top:1pc;
     } 
 }
 @media only screen and (max-width: 380px){
@@ -3886,14 +3896,15 @@
     /* ================menu-second=============== */
     .menu-second{
         display: block;
-        margin: 20px 0pc 40px 0pc;
+        margin: 20px 0pc 0px 0pc;
+        background-color: white;
+        height: 50px;
+        width: 100%;
     }
     .logo img{
         position: relative;
-        top:-2pc;
-        left: 7pc;
-        width: 170px;
-        height: 95px;
+        top:-1.5pc;
+        left: 6pc;
         text-align: center;
         align-items: center;
     }
@@ -3905,13 +3916,13 @@
     
     .icon-user{
         position: absolute;
-        top:0.5pc;
-        left: 19pc;
+        top:0.4pc;
+        left: 18.1pc;
     }
     .icon-user img{
         position: absolute;
-        width: 17px;
-        height: 17px;
+        width: 25px;
+        height: 25px;
     }
     .nav-second-menu{
         display: none;
@@ -3922,13 +3933,14 @@
     
     .icon-cart{
         position: relative;
-        top: -7.2pc;
-        left: 00.2pc;
+        top: -6.5pc;
+        left: 1pc;
         list-style-type: none;
-        width: 0%;
+        float: right;
+        width: 5%;
     }
     .icon-cart a i{
-        font-size: 17px;
+        font-size: 25px;
     }
     .icon-cart a b{
         display: none ;
@@ -3943,11 +3955,11 @@
         background:none;
         border: none;
         padding: 10px 15px;
-        font-size: 17px;
+        font-size: 22px;
         cursor: pointer;
         position: absolute;
-        top:1.2pc ;
-        left: 17.9pc;
+        top:1pc ;
+        left: 16.5pc;
     }
     
     .openBtn:hover {
@@ -3955,7 +3967,7 @@
     }
     
     .overlay {
-        height: 30%;
+        height: 20%;
         width: 100%;
         display: none;
         position: fixed;
@@ -3969,7 +3981,7 @@
     .overlay-content {
         position: relative;
         top: 46%;
-        width: 60%;
+        width: 80%;
         text-align: center;
         margin-top: 30px;
         margin: auto;
@@ -3979,7 +3991,7 @@
         position: absolute;
         top: 20px;
         right: 45px;
-        font-size: 40px;
+        font-size: 60px;
         cursor: pointer;
         color: white;
     }
@@ -3989,12 +4001,11 @@
     }
     
     .overlay input[type=text] {
-        
-        padding: 12px;
-        font-size: 14px;
+        padding: 15px;
+        font-size: 17px;
         border: none;
         float: left;
-        width: 90%;
+        width: 80%;
         background: white;
     }
     
@@ -4003,10 +4014,11 @@
     }
     
     .overlay button {
-        width: 29%;
+        float: left;
+        width: 20%;
         padding: 15px;
         background: #ddd;
-        font-size: 15px;
+        font-size: 17px;
         border: none;
         cursor: pointer;
     }
@@ -4022,14 +4034,17 @@
     
     #toggle{
         display: block;
-        margin-top: -10pc;
+        padding: 0px;
+        margin-top: 0pc;
+        position: absolute;
+        top:0.9pc;
+        left: 5px;
         background:white;
         color: black;
         text-align: left;
-        padding: 15px;
         font-size: 30px;
         cursor: pointer;
-        width: 14%;
+        width: 0%;
     }
     #toggle:active{
         background: gray;
@@ -4501,17 +4516,21 @@
     }
     .text-wrapper-04 h2{
         position: absolute;
-        width: 270px;
-        height: 54px;
+        width: 230px;
+        height: 50px;
         left: 3.5pc;
         top: 1pc;
+        font-size: 17px;
+        border: 5px solid #7F0000;
     }
     .text-wrapper-04 p{
         position: absolute;
-        width: 240px;
+        width: 190px;
         height: 27px;
         left: 4.5pc;
         top: 3.2pc;
+        font-size: 12px;
+        line-height: 1.8pc;
     }
     .text-wrapper-04 img{
         position: relative;
@@ -4524,41 +4543,49 @@
     .wrapper-05{
         position: relative;
         width: 100%;
-        height: 87pc;
+        height: 65.7pc;
         background: black;
     }
     .text-01-wrapper-05 h2{
         position: absolute;
-        width: 250px;
-        height: 54px;
-        left: 4pc;
-        top: 2pc;
+        width: 230px;
+        height: 50px;
+        left: 4.6pc;
+        top: 1pc;
+        font-size: 17px;
+        border: 5px solid #7F0000;
     }
     .text-01-wrapper-05 p{
         position: absolute;
-        width: 220px;
+        width: 190px;
         height: 27px;
-        left: 5pc;
-        top: 4.2pc;
+        left: 6pc;
+        top: 3.2pc;
+        font-size: 12px;
+        line-height: 1.8pc;
     }
     .text-02-wrapper-05 h2{
         position: absolute;
-        width: 255px;
-        height: 54px;
+        width: 230px;
+        height: 50px;
         right: 4pc;
-        top: 44pc;
+        top: 37pc;
+        font-size: 17px;
+        border: 5px solid #7F0000;
     }
     .text-02-wrapper-05 p{
         position: absolute;
-        width: 220px;
+        width: 190px;
         height: 27px;
-        right: 5pc;
-        top: 46.5pc;
+        right: 5.2pc;
+        top: 39.1pc;
+        font-size: 12px;
+        line-height: 1.8pc;
     }
     .text-01-wrapper-05 .img-80{
         position: absolute;
         left: 0pc;
-        top:6pc;
+        top:3pc;
     }
     .text-01-wrapper-05 .img-80 img{
         width: 100%;
@@ -4567,7 +4594,7 @@
     .text-01-wrapper-05 .img-81{
         position:absolute;
         left: 0pc;
-        top:25pc;
+        top:19pc;
     }
     .text-01-wrapper-05 .img-81 img{
         width: 100%;
@@ -4576,7 +4603,7 @@
     .text-02-wrapper-05 .img-82{
         position:absolute;
         right: 0pc;
-        top:50pc;
+        top:40pc;
     }
     .text-02-wrapper-05 .img-82 img{
         width: 100%;
@@ -4585,7 +4612,7 @@
     .text-02-wrapper-05 .img-83{
         position:absolute;
         right: 0pc;
-        top:69pc;
+        top:52pc;
     }
     .text-02-wrapper-05 .img-83 img{
         width: 100%;
@@ -4594,9 +4621,8 @@
     /* =====================footer===================== */
     footer{
         position: relative;
-        height: auto;
         width: 100%;
-        height: 50pc;
+        height: 43pc;
         background: black;
         display: flex;
         justify-content: space-between;
@@ -4609,7 +4635,7 @@
         background: #900000;
     }
     footer .container-footer{
-        margin: -25pc 0pc 0pc 0pc;
+        margin: -22pc 0pc 0pc 0pc;
         padding-left: 20px;
         display: flex;
         justify-content: space-between;
@@ -4618,7 +4644,7 @@
     }
     .nav-01 h3{
         width: 140px;
-        height: auto;
+        height: 70px;
         font-family: Roboto,sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -4652,7 +4678,7 @@
     }
     .nav-02 h3{
         width: 200px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -4683,11 +4709,11 @@
     .nav-03 {
         position: absolute;
         left: 1pc;
-        top: 17pc;
+        top: 15pc;
     }
     .nav-03 h3{
         width: 120px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -4716,11 +4742,11 @@
     .nav-04 {
         position: absolute;
         left: 11pc;
-        top:17pc;
+        top:15pc;
     }
     .nav-04 h3{
         width: 120px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -4761,11 +4787,11 @@
     .nav-05 {
         position:absolute;
         left: 1pc;
-        top: 34pc;
+        top: 30pc;
     }
     .nav-05 h3{
         width: 140px;
-        height: auto;
+        height: 70px;
     
         font-family: Roboto,sans-serif;
         font-style: normal;
@@ -4794,5 +4820,9 @@
     }   
     .nav-05 ul li p{
         font-size: 10px;
+    }
+    .nav-05 ul img{
+        position: relative;
+        top:1pc;
     } 
 }

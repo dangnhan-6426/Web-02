@@ -4278,7 +4278,7 @@
             position: relative;
             height: auto;
             width: 100%;
-            height: 50pc;
+            height: 43pc;
             background: black;
             display: flex;
             justify-content: space-between;
@@ -4291,7 +4291,7 @@
             background: #900000;
         }
         footer .container-footer{
-            margin: -25pc 0pc 0pc 0pc;
+            margin: -22pc 0pc 0pc 0pc;
             padding-left: 20px;
             display: flex;
             justify-content: space-between;
@@ -4300,7 +4300,7 @@
         }
         .nav-01 h3{
             width: 140px;
-            height: auto;
+            height: 70px;
             font-family: Roboto,sans-serif;
             font-style: normal;
             font-weight: bold;
@@ -4329,12 +4329,12 @@
     
         .nav-02 {
             position: absolute;
-            left: 11pc;
+            left: 13pc;
             
         }
         .nav-02 h3{
             width: 200px;
-            height: auto;
+            height: 70px;
         
             font-family: Roboto,sans-serif;
             font-style: normal;
@@ -4365,11 +4365,11 @@
         .nav-03 {
             position: absolute;
             left: 1pc;
-            top: 17pc;
+            top: 15pc;
         }
         .nav-03 h3{
             width: 120px;
-            height: auto;
+            height: 70px;
         
             font-family: Roboto,sans-serif;
             font-style: normal;
@@ -4397,12 +4397,12 @@
     
         .nav-04 {
             position: absolute;
-            left: 11pc;
-            top:17pc;
+            left: 13pc;
+            top:15pc;
         }
         .nav-04 h3{
             width: 120px;
-            height: auto;
+            height: 70px;
         
             font-family: Roboto,sans-serif;
             font-style: normal;
@@ -4443,11 +4443,11 @@
         .nav-05 {
             position:absolute;
             left: 1pc;
-            top: 34pc;
+            top: 30pc;
         }
         .nav-05 h3{
             width: 140px;
-            height: auto;
+            height: 70px;
         
             font-family: Roboto,sans-serif;
             font-style: normal;
@@ -4476,7 +4476,11 @@
         }   
         .nav-05 ul li p{
             font-size: 10px;
-        } 
+        }
+        .nav-05 ul img{
+            position: relative;
+            top:1pc;
+        }  
 }
 @media only screen and (max-width: 380px){
     .top-menu .nav-top-menu{
@@ -5508,208 +5512,208 @@
         align-items: center;
     }
 
-        /* =====================footer===================== */
-        footer{
-            position: relative;
-            height: auto;
-            width: 100%;
-            height: 50pc;
-            background: black;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        .hr{
-            position: relative;
-            width: 100%;
-            height: 5px;
-            background: #900000;
-        }
-        footer .container-footer{
-            margin: -25pc 0pc 0pc 0pc;
-            padding-left: 20px;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            flex-direction: row;
-        }
-        .nav-01 h3{
-            width: 140px;
-            height: auto;
-            font-family: Roboto,sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 11px;
-            line-height: 80px;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
-        .nav-01 ul li a{
-            text-decoration: none;
-            width: 140px;
-            height: auto;
-            left: 211px;
-            top: 3514px;
-        
-            font-family: Roboto, sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 10px;
-            line-height: 183%;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
+    /* =====================footer===================== */
+    footer{
+        position: relative;
+        height: auto;
+        width: 100%;
+        height: 50pc;
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .hr{
+        position: relative;
+        width: 100%;
+        height: 5px;
+        background: #900000;
+    }
+    footer .container-footer{
+        margin: -25pc 0pc 0pc 0pc;
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .nav-01 h3{
+        width: 140px;
+        height: auto;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 80px;
     
-        .nav-02 {
-            position: absolute;
-            left: 11pc;
-            
-        }
-        .nav-02 h3{
-            width: 200px;
-            height: auto;
-        
-            font-family: Roboto,sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 11px;
-            line-height: 80px;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
-        .nav-02 ul li a{
-            text-decoration: none;
-            width: 100px;
-            height: auto;
-            left: 211px;
-            top: 3514px;
-        
-            font-family: Roboto, sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 10px;
-            line-height: 183%;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .nav-01 ul li a{
+        text-decoration: none;
+        width: 140px;
+        height: auto;
+        left: 211px;
+        top: 3514px;
     
-        .nav-03 {
-            position: absolute;
-            left: 1pc;
-            top: 17pc;
-        }
-        .nav-03 h3{
-            width: 120px;
-            height: auto;
-        
-            font-family: Roboto,sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 11px;
-            line-height: 80px;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
-        .nav-03 ul li a{
-            text-decoration: none;
-            width: 250px;
-            height: auto;
-        
-            font-family: Roboto, sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 10px;
-            line-height: 183%;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 183%;
     
-        .nav-04 {
-            position: absolute;
-            left: 11pc;
-            top:17pc;
-        }
-        .nav-04 h3{
-            width: 120px;
-            height: auto;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .nav-02 {
+        position: absolute;
+        left: 11pc;
         
-            font-family: Roboto,sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 11px;
-            line-height: 80px;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
-        .nav-04 ul li a{
-            text-decoration: none;
-            width: 140px;
-            height: auto;
-            left: 211px;
-            top: 3514px;
-        
-            font-family: Roboto, sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 10px;
-            line-height: 183%;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
-        .nav-04 ul li a img{
-            width: 5%;
-            height: 5%;
-            text-align: center;
-            margin: -4px 5px;
-        }
-        .nav-04 ul li a .b1{
-            margin-left: 0pc;
-            padding-left: 12px;
-        }
+    }
+    .nav-02 h3{
+        width: 200px;
+        height: auto;
     
-        .nav-05 {
-            position:absolute;
-            left: 1pc;
-            top: 34pc;
-        }
-        .nav-05 h3{
-            width: 140px;
-            height: auto;
-        
-            font-family: Roboto,sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 11px;
-            line-height: 80px;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }
-        .nav-05 ul li a{
-            text-decoration: none;
-            width: 14 0px;
-            height: auto;
-            left: 211px;
-            top: 3514px;
-        
-            font-family: Roboto, sans-serif;
-            font-style: normal;
-            font-weight: 200;
-            font-size: 10px;
-            line-height: 183%;
-        
-            align-items: center;
-            color: #FFFFFF;
-        }   
-        .nav-05 ul li p{
-            font-size: 10px;
-        } 
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 80px;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .nav-02 ul li a{
+        text-decoration: none;
+        width: 100px;
+        height: auto;
+        left: 211px;
+        top: 3514px;
+    
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 183%;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .nav-03 {
+        position: absolute;
+        left: 1pc;
+        top: 17pc;
+    }
+    .nav-03 h3{
+        width: 120px;
+        height: auto;
+    
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 80px;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .nav-03 ul li a{
+        text-decoration: none;
+        width: 250px;
+        height: auto;
+    
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 183%;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .nav-04 {
+        position: absolute;
+        left: 11pc;
+        top:17pc;
+    }
+    .nav-04 h3{
+        width: 120px;
+        height: auto;
+    
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 80px;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .nav-04 ul li a{
+        text-decoration: none;
+        width: 140px;
+        height: auto;
+        left: 211px;
+        top: 3514px;
+    
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 183%;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .nav-04 ul li a img{
+        width: 5%;
+        height: 5%;
+        text-align: center;
+        margin: -4px 5px;
+    }
+    .nav-04 ul li a .b1{
+        margin-left: 0pc;
+        padding-left: 12px;
+    }
+
+    .nav-05 {
+        position:absolute;
+        left: 1pc;
+        top: 34pc;
+    }
+    .nav-05 h3{
+        width: 140px;
+        height: auto;
+    
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 80px;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .nav-05 ul li a{
+        text-decoration: none;
+        width: 14 0px;
+        height: auto;
+        left: 211px;
+        top: 3514px;
+    
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 183%;
+    
+        align-items: center;
+        color: #FFFFFF;
+    }   
+    .nav-05 ul li p{
+        font-size: 10px;
+    } 
 }
